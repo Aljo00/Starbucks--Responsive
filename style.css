@@ -1,0 +1,136 @@
+@font-face{
+    font-family: 'SoDoSans-Black';
+    src: url('Fonts/SoDoSans-Black.ttf') format('ttf'),
+         url('Fonts/SoDoSans-Black.woff') format('woff'),
+         url('Fonts/SoDoSans-Black.woff2') format('woof2');
+}
+
+@font-face {
+    font-family: 'SoDoSans-Bold';
+    src: url('Fonts/SoDoSans-Bold.ttf') format('ttf'),
+         url('Fonts/SoDoSans-Bold.woff') format('woff'),
+         url('Fonts/SoDoSans-Bold.woff2') format('woff2')
+}
+
+@font-face {
+    font-family: 'SoDoSans-SemiBold';
+    src: url('Fonts/SoDoSans-SemiBold.ttf') format('ttf'),
+         url('Fonts/SoDoSans-SemiBold.woff') format('woff'),
+         url('Fonts/SoDoSans-SemiBold.woff2') format('woff2')
+}
+
+@font-face {
+    font-family: 'SoDoSans-Light';
+    src: url('Fonts/SoDoSans-Light.ttf') format('ttf'),
+         url('Fonts/SoDoSans-Light.woff') format('woff'),
+         url('Fonts/SoDoSans-Light.woff2') format('woff2')
+}
+
+@font-face {
+    font-family: 'SoDoSans-Thin';
+    src: url('Fonts/SoDoSans-Thin.ttf') format('ttf'),
+         url('Fonts/SoDoSans-Thin.woff') format('woff'),
+         url('Fonts/SoDoSans-Thin.woff2') format('woff2')
+}
+
+#logo
+{
+    width: 60px;
+}
+#map
+{
+    width: 15px;
+}
+
+.join-btn{
+    padding:  7px 18px;
+    font-family: 'SoDoSans-Bold',Arial, Helvetica, sans-serif;
+    color: #fff;
+    background: #000;
+    border-radius: 50px;
+    border: 0;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.join-btn:hover{
+    transition-duration: 0.3s;
+    background-color: #4C4C4C;
+}
+
+.sign-btn{
+    padding:  6px 15px;
+    font-family: 'SoDoSans-SemiBold',Arial, Helvetica, sans-serif;
+    color: #000;
+    background: #fff;
+    border-radius: 50px;
+    border: 1px solid #000;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.sign-button:hover{
+    transition-duration: 0.3s;
+    background-color: #E5E5E5;
+}
+
+.for_images img
+{
+    width: 100%;
+    height: auto;
+}
+
+hr{
+    border: none;
+    height: 1px;               
+    background-color: #4C4C4C;
+    opacity: 0.2;
+}
+
+.for_text
+{
+    background-color: rgb(0, 98,65);
+}
+.for_text p
+{
+    font-size: 45px;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.for_text .p1-sub
+{
+    font-size: 23px;
+}
+.btn_1
+{
+    background-color: rgb(0, 98,65);
+    
+}
+.t2
+{
+    background-color: rgb(158, 34, 64)
+}
+.t3
+{
+    background-color: rgb(236, 187, 77);
+}
+.t4
+{
+    background-color: rgb(0, 113, 121);
+}
+.t6
+{
+    background-color: rgb(255, 190, 158);
+}
+.t7
+{
+    background-color: rgb(217, 232, 154);
+}
+.footer_sub
+{
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2);
+}
+.f_img img
+{
+    width: 30px;
+    height: 30px;
+}
